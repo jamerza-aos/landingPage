@@ -1,38 +1,119 @@
-.App {
+
+ #one{
+  font-weight: bold;
+  font-size: 25px;
+}
+
+header{
+  background-color: green;
+  width: 100%;
+  height: 80vh;
   text-align: center;
+  margin-top: 0 ;
+  padding-top: 3%;
+  
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+ .num1{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-evenly;
+ }
+
+ .num2{
+   color: white;
+   font-size: 50px;
+ }
+ .we1{
+   color: white;
+   font-size: 80px;
+   border-bottom: 1px solid white;
+   padding-bottom: 2%;
+   margin-left: 32%;
+   margin-right: 32%;
+ }
+
+ .lorem{
+   padding-left: 10%;
+   padding-right: 10%;
+ }
+
+ .num3{
+   border-right: 1px solid white;
+   height: 17vh;
+   padding-right: 5%;
+   margin-top: 2%;
+   margin-bottom: 1%;
+ }
+
+ .last{
+   margin-top: 2%;
+ }
+
+ .num1 p{
+   font-weight: bold;
+ } 
+
+ .one{
+   text-align: center;
+ }
+
+.we{
+  font-size: 45px;
+  width: 68%;
+  padding-left: 16%;
+
+ }
+
+ .Wedo{
+   display: grid;
+   grid-template-columns: repeat(2,1fr);
+   justify-content: space-around;
+ }
+ 
+
+
+ .Wedo div{
+   width: 60%;
+   padding-left: 20%;
+ }
+
+ img{
+   height: 200px;
+   width: 100%;
+ }
+
+ .fuscu{
+   display: grid;
+   grid-template-columns: repeat(4,1fr);
+   width: 85%;
+   border-left: 60px solid rgb(202, 196, 196);
+   border-right: 60px solid rgb(202, 196, 196);
+  margin-left: 3%;  
+ }
+
+ .fuscu div{
+   width: 100%;
+ }
+
+ .blue {
+   font-weight: bold;
+   font-size: 20px;
+   color: rgb(62, 128, 202);
+ }
+
+ .preis{
+   color: rgb(57, 221, 112);
+   font-size: 20px;
+   font-weight: bold;
+ }
+
+.aos1{
+  height: 65px;
+  width: 65px;
+  margin-left: -10%;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Wedo span {
+    font-size: 30px;
+    font-weight: bold;
+    display: inline-block;
 }
